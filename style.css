@@ -1,0 +1,141 @@
+body {
+    background-color: #e6f4f2;
+    height: 100vh;
+
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #e6f4f2, #f0d941, #9a72ef);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+   }
+
+.nav {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.hello {
+    color: #FFB200;
+}
+
+.ihechi {
+    color: #141283;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.tasha {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+.heading {
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+
+.profile-img {
+    margin-left: 60px;
+    border-radius: 50%;
+    
+}
+
+.summary {
+    font-weight: normal;
+    color: #141283;
+}
+
+.info-summary {
+    font-weight: normal;
+}
+
+.education {
+    font-weight: normal;
+    color: #141283;
+}
+
+.work {
+    font-weight: normal;
+    color: #141283;
+}
+
+.skill {
+    font-weight: normal;
+    color: #141283;
+}
+
+.Certificate {
+    font-weight: normal;
+    color: #141283;
+}
+
+.other {
+    font-weight: bold;
+    color: #141283;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.p-list {
+    font-weight: bold;
+}
+
+.project-heading {
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+#project {
+    margin-top: 0;
+}
+
+.d-block {
+    padding-bottom: 20px;
+}
+
+#about-me {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+
+.about-p {
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.email {
+    font-weight: bold;
+}
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.my-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
